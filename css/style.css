@@ -1,24 +1,39 @@
 * {
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#a { 
+#social { 
      font-size: 22px;
      color: blue;
 }
-#b {
-     font-size: 25px;
+.bio {
+     text-align: center;
+}
+.bio-div {
+     margin: 20px 0 10px 75px
 }
 body {
-     transition: 15s;
+     background-color: lightgrey;
+/*      transition: 15s;
+ */}
+.cc-logo {
+     height: 45px;
+     width: auto;
 }
 header {
      font-size: 1.5em;
-     color: darkblue;
+     color: darkslateblue;
+}
+.header-section {
+     margin: 25px 0 0 0;
 }
 .me {
      border: 4px inset slategrey;
-     width: 130px;
-     height: 130px;
+     border-radius: 7%;
+     width: 185px;
+     height: 175px;
+}
+.my-bio-info {
+     font-size: 18px;
 }
 .icon {
      border: 3px inset slategrey;
@@ -37,12 +52,25 @@ footer {
      color: darkslateblue;
 }
 #gitHub {
-     font-size: 25px;
-     color: black;
-}
-li {
-     list-style-type: none;
      font-size: 18px;
+     color: black;
+     list-style: none;
 }
+#split, #gitHub {
+     -webkit-columns: 2;
+     -moz-columns: 2;
+     columns: 2;
+     padding-left: 0;
+   }
+   ul li {
+     list-style-position: inside;
+     -webkit-column-break-inside: avoid;
+     page-break-inside: avoid;
+     break-inside: avoid;
+     list-style: none;
+     font-size: 18px;
+   }
 
-
+   .social-media {
+        margin: 20px 0 10px 75px;
+   }
