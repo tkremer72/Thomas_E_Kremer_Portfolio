@@ -1,0 +1,48 @@
+* {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#a { 
+     font-size: 22px;
+     color: blue;
+}
+#b {
+     font-size: 25px;
+}
+body {
+     transition: 15s;
+}
+header {
+     font-size: 1.5em;
+     color: darkblue;
+}
+.me {
+     border: 4px inset slategrey;
+     width: 130px;
+     height: 130px;
+}
+.icon {
+     border: 3px inset slategrey;
+     border-radius: 75%;
+     height: 45px;
+     width: 45px;
+}
+.foot {
+     height: 25px;
+     width: 25px;
+}
+footer {
+     position: sticky;  
+     bottom: 0;
+     font-size: 18px;
+     color: darkslateblue;
+}
+#gitHub {
+     font-size: 25px;
+     color: black;
+}
+li {
+     list-style-type: none;
+     font-size: 18px;
+}
+
+
