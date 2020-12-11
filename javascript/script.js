@@ -1,19 +1,78 @@
 // AJAX request to dynamically list my GitHub repositories. 
+const git = document.getElementById("git");
+let currentPage = 1;
+const pageMap = {};
+let lastPage;
 
-let request = new XMLHttpRequest();
-request.onreadystatechange = function(){
-      if(this.readyState == 4 && this.status == 200){
-            let object = JSON.parse(this.responseText);
-            for(let i = 0; i < object.length; i++){
-                  var li = document.createElement('li');
-                  var text = document.createTextNode(object[i].name);
-                  li.appendChild(text);
-            var repo = document.getElementById("gitHub").appendChild(li);             
-            }
+//render function
+function render() {
+  git.innerHTML = "";
+  pageMap[currentPage].forEach(name => {
+    const li = document.createElement('li');
+    li.textContent = name;
+    git.append(li)
+  })
+}
+
+function next() {
+  if (currentPage === lastPage) return;
+  currentPage++;
+  render();
+}
+
+function prev() {
+  if (currentPage === 1) return;
+  currentPage--;
+  render();
+}
+
+const request = new XMLHttpRequest();
+request.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    const response = JSON.parse(this.responseText);
+    let page = 1;
+    let nameCount = 1;
+
+    //populate results to an object map
+    response.forEach(res => {
+      if (!pageMap[page]) {
+        pageMap[page] = [];
       }
+      pageMap[page].push(res.name);
+      nameCount++
+      if (nameCount > 8) {
+        nameCount = 1;
+        page++
+      }
+    })
+    //store last page
+    lastPage = Object.keys(pageMap).length;
+    //render first page only
+    render();
+  }
 };
+
 request.open("GET", "https://api.github.com/users/tkremer72/repos", true);
 request.send();
+// let request = new XMLHttpRequest();
+// request.onreadystatechange = function(){
+//       if(this.readyState == 4 && this.status == 200){
+//             let object = JSON.parse(this.responseText);
+//             for(let i = 0; i < object.length; i++){
+//                   var li = document.createElement('li');
+//                   var text = document.createTextNode(object[i].name);
+//                   li.appendChild(text);
+//             var repo = document.getElementById("gitHub").appendChild(li);             
+//             }
+//       }
+// };
+// request.open("GET", "https://api.github.com/users/tkremer72/repos", true);
+// request.send();
+
+
+//AJAX Request that loads GitHub repositories and then lists them ten at a time.
+
+
 // Change the size of the social accounts icons on hover. 
 
 $(document).ready(function(){

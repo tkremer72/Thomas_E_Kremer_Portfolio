@@ -4,6 +4,7 @@
 body {
      background-color: lightgrey;
 } 
+
 @media only screen
 and (min-device-width: 374px)
 and (max-device-width: 1199px)
@@ -12,8 +13,16 @@ a {
           font-size: 17px;
           font-weight: bold;
 }
+.buttons {
+     margin: 0 0 0 55px;
+}
+button {
+     border: 3px outset darkslategrey;
+     padding: 7.5px 20px;
+     margin: 5px 5px 0 5px;
+}
 .header-image-container {
-          margin: 5px 0 0 0;
+          margin-top: 10px;
           text-align: center;
 }
 .header-image-me {
@@ -52,7 +61,6 @@ text-align: start;
      font-size: 17px;
      color: darkslategrey;
      font-weight: bold;
-     text-align: start;
 }
 .social-media-h2 {
      margin: 20px 0 15px 0;
@@ -123,6 +131,13 @@ a {
      font-size: 16px;
      font-weight: bold;
 }
+.buttons {
+     margin: 0 0 0 155px;
+}
+button {
+     padding: 7.5px 20px;
+     margin: 5px 5px 0 5px;
+}
 .header-image-container {
           margin: 5px 0 0 0;
           text-align: center;
@@ -158,7 +173,7 @@ a {
      width: auto
 }
 .gitHub {
-     margin: 0 0 0 25px;
+     margin: 0 0 0 105px;
 }
 .icon {
      margin: 0 0 0 165px;
