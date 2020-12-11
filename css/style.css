@@ -4,7 +4,116 @@
 body {
      background-color: lightgrey;
 } 
-/* ----------- Non-Retina Screens ----------- */
+@media only screen
+and (min-device-width: 374px)
+and (max-device-width: 1199px)
+and (-webkit-min-device-pixel-ratio: 3) {
+a {
+          font-size: 17px;
+          font-weight: bold;
+}
+.header-image-container {
+          margin: 5px 0 0 0;
+          text-align: center;
+}
+.header-image-me {
+          border: 5px outset slategrey;
+          border-radius: 7%;
+          width: 200px;
+          height: 195px;
+}
+.header-text-container {
+     margin: 10px 0 0 0;
+}
+.header-text-h1 {
+color: darkslateblue;
+text-align:center;
+}
+.about-me-h2, .about-my-projects-h2 {
+margin: 5px 0 15px 0;
+color: darkslateblue;
+text-align: center;
+}
+.about-me-info {
+margin: 10px 0 10px 0;
+font-size: 17px;
+color: darkslategrey;
+font-weight: bold;
+text-align: center;
+}
+.about-my-projects {
+     margin: 5px 0 0 45px
+}
+.cc-logo {
+     height: 40px;
+     width: auto
+}
+.gitHub, #gitHub {
+     font-size: 17px;
+     color: darkslategrey;
+     font-weight: bold;
+     text-align: start;
+}
+.social-media-h2 {
+     margin: 20px 0 15px 0;
+     color: darkslateblue;
+     text-align: center;
+}
+.social-repos-h2 {
+     color: darkslateblue;
+     text-align: center;
+     margin: 20px 0 15px 0;
+}
+.social-skills-h2 {
+     color: darkslateblue;
+     margin: 20px 0 15px 5px;
+     text-align: center;
+}
+.my-skills1 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 19px;
+     color: darkslategrey;
+}
+.my-skills2 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 19px;
+     color: darkslategrey;
+}
+.my-skills3 {
+     margin: 10px 0 15px 65px;
+     font-weight: bold;
+     font-size: 19px;
+     color: darkslategrey;
+}
+ul li {
+     list-style: none;
+}
+.footer-container {
+     margin: 20px 0 0 0;
+     text-align: center;
+}
+.foot {
+          height: 25px;
+          width: 25px;
+}
+footer {
+          position: sticky;  
+          bottom: 0;
+          font-size: 18px;
+          font-weight: bold;
+          color: darkslateblue;
+}
+.icon {
+     margin: 0 0 0 65px;
+     height: 45px;
+     width: 45px;
+}
+}
+
+
+/* ----------- Non-Retina Screens Laptops And Larger ----------- */
 @media screen
 and (min-device-width: 1200px)
 and (max-device-width: 2400px)
@@ -95,7 +204,7 @@ footer {
           color: darkslateblue;
 }
      
-     #split, #gitHub {
+     #split {
           -webkit-columns: 2;
           -moz-columns: 2;
           columns: 2;
