@@ -19,49 +19,53 @@
 </head>
 
 <body>
-     <div class="container-fluid header-section">
-          <div class="row justify-content-center">
-               <div class="col-auto-lg col-6-sm align-items-center">
-                    <img class="me" src="/images/Me 2020.jpg" alt="Me 2020" class="img-fluid" />
+     <div class="container-fluid page-container">
+          <div class="row" style="justify-content: center;">
+               <div class="col-lg-12 header-image-container">
+                    <img class="header-image-me" src="/images/Me 2020.jpg" alt="Me 2020" />
                </div>
-               <div class="col-auto align-self-center">
-                    <header>
-                         <h1 class="name">Thomas E. Kremer | Software Developer JavaScript</h1>
-                    </header>
-               </div>
-          </div>
-     </div>
-    <br>
-     <div class="row bio-div">
-          <div class="col-6 bio justify-content-start">
-               <h2 class="about-me" style="text-align: center;">About Me</h2>
-               <p class="my-bio-info">Full Stack Software Developer with a passion for application 
-                    development, problem solving, teaching and technical support. 
-                    I am a Bethel School Of Technology graduate that has completed 
-                    several side projects in addition to projects for my coursework. 
-                    I am the audio/visual aid for my local church. It is my goal after 
-                    graduation to retain an internship/job where I can further my 
-                    education and later pursue a career in the web and software 
-                    development community as a teacher, mentor, or technical advisor. </p>
-          </div>
-          <div class="col-4 projects justify-content-center">
-               <h2 class="deployed" style="text-align: center;">Projects</h2>
-               <ul id="deployed">
-                    <li>1. </li>
-                    <li>2.</li>
-                    <li>3.</li>
-                    <li>4.</li>
-                    <li>5.</li>
-                    <li>6.</li>
-                    <li>7.</li>
-                    <li>8. <img class="cc-logo" src="/images/logos/CityCare2.png" alt="CityCare2"> <a href="http://uscitycare-env.eba-cjgmkkyx.us-east-2.elasticbeanstalk.com/city-care/home">City Care</a></li>
-               </ul>
-          </div>
-     </div><br>
 
-     <div class="row">
-          <div class="col social-media">
-                    <p id="social">Social Accounts</p>
+          </div>
+          <div class="row header-text-container">
+               <div class="col-lg-12 header-text-container">
+                    <h1 class="header-text-h1">Thomas E. Kremer | Full Stack Software Developer</h1>
+               </div>
+          </div>
+
+          <div class="row about-me-container">
+               <div class="col-lg-6  about-me">
+                    <h2 class="about-me-h2">About Me</h2>
+                    <p class="about-me-info">
+                         Full Stack Software Developer with a passion for application development,
+                         problem solving, teaching and technical support. I am a Bethel School Of
+                         Technology graduate that has completed several side projects in addition
+                         to projects for my coursework. I am the audio/visual aid for my local church.
+                         It is my goal after graduation to retain an internship/job where I can further
+                         my education and later pursue a career in the web and software development
+                         community as a teacher, mentor, or technical advisor. </p>
+               </div>
+               <div class="col-lg-6 about-my-projects-section">
+                    <h2 class="about-my-projects-h2">Projects</h2>
+                    <ul>
+                         <li class="about-my-projects">1. <a href="www.google.com">Google project</a></li>
+                         <li class="about-my-projects">2. <a href="www.microsoft.com">Microsoft project</a></li>
+                         <li class="about-my-projects">3.</li>
+                         <li class="about-my-projects">4.</li>
+                         <li class="about-my-projects">5.</li>
+                         <li class="about-my-projects">6.</li>
+                         <li class="about-my-projects">7.</li>
+                         <li class="about-my-projects">8. <img class="cc-logo" src="/images/logos/CityCare2.png"
+                                   alt="CityCare2">
+                              <a
+                                   href="http://uscitycare-env.eba-cjgmkkyx.us-east-2.elasticbeanstalk.com/city-care/home">City
+                                   Care</a></li>
+                    </ul>
+               </div>
+          </div>
+
+          <div class="row container-fluid social-accounts">
+               <div class="col-lg-6 my-social-media">
+                    <h2 class="social-media-h2">Social Accounts</h2>
                     <a href="https://www.facebook.com/tbone7243">
                          <img class="icon" src="/images/icons/icons8-facebook-50-4.png" />&nbsp; Facebook</a><br>
                     <a href="https://www.github.com/tbone7243">
@@ -75,101 +79,100 @@
                     <a href="https://app.slack.com/client/T9P33872P/C9NK4HWKT">
                          <img class="icon" src="/images/icons/icons8-slack-50.png" />&nbsp; Slack</a> <br>
                </div>
-          <div class="col-8 justify-content-center">
-               <h2 id="repos" style="text-align: center;">GitHub Repositories &nbsp;</h2>
-               <ul>
-                    <li><p id="gitHub"></p></li>
-               </ul>
+               <div class="col-lg-6 my-social-github">
+                    <h2 class="social-repos-h2">My Repositories &nbsp;</h2>
+                    <ul>
+                         <li class="gitHub" id="gitHub">
+                         </li>
+                         </ul>
+               </div>
           </div>
-     </div>
-     <div class="row justify-content-center">
-          
-          <div class="col-4">
-               <p id="social">Languages/Frameworks</p>
-               <ul id="split">
-                    <li>Angular JS</li>
-                    <li>Bootstrap</li>
-                    <li>Cordova</li>
-                    <li>CSS</li>
-                    <li>CSS3</li>
-                    <li>DOS</li>
-                    <li>Express JS</li>
-                    <li>HTML</li>
-                    <li>HTML5</li>
-                    <li>Ionic</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>JWT</li>
-                    <li>MongoDB</li>
-                    <li>Mongoose</li>
-                    <li>Node JS</li>
-                    <li>Passport</li>
-                    <li>React JS</li>
-                    <li>TypeScript</li>
-               </ul>
-          </div>
-          <div class="col-4">
-               <p id="social">Technologies</p>
-               <ul id="split">
-                    <li>Atom</li>
-                    <li>Dreamweaver</li>
-                    <li>GitHub</li>
-                    <li>GitKraken</li>
-                    <li>Insomnia</li>
-                    <li>Lucid Chart</li>
-                    <li>MS Excel</li>
-                    <li>MS Office</li>
-                    <li>MS Word</li>
-                    <li>NPM</li>
-                    <li>Postman</li>
-                    <li>Photoshop</li>
-                    <li>Pro Presenter</li>
-                    <li>Trello</li>
-                    <li>Visual Studio Code</li>
-                    <li>Windows</li>
-                    <li>Wix.com</li>
-                    <li>Zoom</li>
-               </ul>
-          </div>
-          <div class="col-4">
-               <p id="social">Other skills</p>
-               <ul id="split">
-                    <li>Agile Methodologies</li>
-                    <li>Basic UI/UX Design</li>
-                    <li>Functional Programming</li>
-                    <li>Kanban</li>
-                    <!--   <li>MySQL</li>
-                     <li>NoSQL</li> -->
-                    <li>Networking</li>
-                    <li>PC Repair</li>
-                    <li>Project Management</li>
 
-                    <!--   <li>Software Development</li>
-                     <li>Web Development</li> -->
-                    <li>Reading</li>
-                    <li>SCRUM</li>
-                    <li>Typing</li>
-                    <li>Writing</li>
-               </ul>
+          <div class="row my-skills-container">
+               <div class="col-lg-4">
+                    <h2 class="social-skills-h2">Languages/Frameworks</h2>
+                    <ul class="my-skills1" id="split">
+                         <li>Angular JS</li>
+                         <li>Bootstrap</li>
+                         <li>Cordova</li>
+                         <li>CSS</li>
+                         <li>CSS3</li>
+                         <li>DOS</li>
+                         <li>Express JS</li>
+                         <li>HTML</li>
+                         <li>HTML5</li>
+                         <li>Ionic</li>
+                         <li>JavaScript</li>
+                         <li>jQuery</li>
+                         <li>JWT</li>
+                         <li>MongoDB</li>
+                         <li>Mongoose</li>
+                         <li>Node JS</li>
+                         <li>Passport</li>
+                         <li>React JS</li>
+                         <li>TypeScript</li>
+                    </ul>
+               </div>
+
+               <div class="col-lg-4">
+                    <h2 class="social-skills-h2">Technologies</h2>
+                    <ul class="my-skills2" id="split">
+                         <li>Atom</li>
+                         <li>Dreamweaver</li>
+                         <li>GitHub</li>
+                         <li>GitKraken</li>
+                         <li>Insomnia</li>
+                         <li>Lucid Chart</li>
+                         <li>MS Excel</li>
+                         <li>MS Office</li>
+                         <li>MS Word</li>
+                         <li>NPM</li>
+                         <li>Postman</li>
+                         <li>Photoshop</li>
+                         <li>Pro Presenter</li>
+                         <li>Trello</li>
+                         <li>Visual Studio Code</li>
+                         <li>Windows</li>
+                         <li>Wix.com</li>
+                         <li>Zoom</li>
+                    </ul>
+               </div>
+
+               <div class="col-lg-4">
+                    <h2 class="social-skills-h2">Other skills</h2>
+                    <ul class="my-skills3" id="split">
+                         <li>Agile Methodologies</li>
+                         <li>Basic UI/UX Design</li>
+                         <li>Functional Programming</li>
+                         <li>Kanban</li>
+                         <li>MySQL</li>
+                         <li>NoSQL</li>
+                         <li>Networking</li>
+                         <li>PC Repair</li>
+                         <li>Project Management</li>
+                         <li>Software Development</li>
+                         <li>Web Development</li>
+                         <li>Reading</li>
+                         <li>SCRUM</li>
+                         <li>Typing</li>
+                         <li>Writing</li>
+                    </ul>
+               </div>
           </div>
-     </div>
-
-     <div class="container">
-          <br>
-     </div>
-
-     <div class="row justify-content-center ">
-          <div class="col-12 footer" style="text-align: center;">
-               <footer>
-                    <p>&copy; WebTEK Inc. | 2020 This Web Page Designed By Thomas E. Kremer
-                         <a href="mailto: tkremer@nc.rr.com">
-                              <img class="foot" src="/images/icons/icons8-send-email-50-2.png">
-                         </a> | Contact Info:
-                         tkremer@nc.rr.com</p>
-               </footer>
+     
+          <div class="row my-footer-container">
+               <div class="col-lg-12 footer-container">
+                    <footer>
+                         <p>&copy; WebTEK Inc. | 2020 This Web Page Designed By Thomas E. Kremer
+                              <a href="mailto: tkremer@nc.rr.com">
+                                   <img class="foot" src="/images/icons/icons8-send-email-50-2.png">
+                              </a> | Contact Info:
+                              tkremer@nc.rr.com</p>
+                    </footer>
+               </div>
           </div>
-     </div>
 
+     </div>
 
 </body>
 

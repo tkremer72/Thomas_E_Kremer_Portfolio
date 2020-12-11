@@ -18,7 +18,7 @@ request.send();
 
 $(document).ready(function(){
       $(".icon").hover(function(){
-            $(this).css("height", "75px").css("width", "75px");
+            $(this).css("height", "55px").css("width", "55px");
    }, function(){
          $(this).css("height", "45px").css("width", "45px");
    });

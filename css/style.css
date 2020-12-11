@@ -1,76 +1,115 @@
 * {
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#social { 
-     font-size: 22px;
-     color: blue;
-}
-.bio {
-     text-align: center;
-}
-.bio-div {
-     margin: 20px 0 10px 75px
-}
 body {
      background-color: lightgrey;
-/*      transition: 15s;
- */}
-.cc-logo {
-     height: 45px;
-     width: auto;
+} 
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 2400px)
+and (-webkit-min-device-pixel-ratio: 1) {
+     
+a {
+     font-size: 16px;
+     font-weight: bold;
 }
-header {
-     font-size: 1.5em;
+.header-image-container {
+          margin: 5px 0 0 0;
+          text-align: center;
+}
+.header-image-me {
+          border: 5px outset slategrey;
+          border-radius: 7%;
+          width: 200px;
+          height: 195px;
+}
+.header-text-container {
+          margin: 20px 0 0 0;
+}
+.header-text-h1 {
      color: darkslateblue;
+     text-align:center;
 }
-.header-section {
-     margin: 25px 0 0 0;
+.about-me-h2, .about-my-projects-h2 {
+     color: darkslateblue;
+     margin: 20px 0 15px 15px;
+     text-align: center;
 }
-.me {
-     border: 4px inset slategrey;
-     border-radius: 7%;
-     width: 185px;
-     height: 175px;
+.about-me-info {
+     margin: 15px 0 15px 90px;
+     font-size: 16px;
+     font-weight: bold;
 }
-.my-bio-info {
-     font-size: 18px;
+.about-my-projects {
+     margin: 0 0 0 200px
+}
+.cc-logo {
+     height: 40px;
+     width: auto
+}
+.gitHub {
+     margin: 0 0 0 25px;
 }
 .icon {
-     border: 3px inset slategrey;
-     border-radius: 75%;
+     margin: 0 0 0 165px;
      height: 45px;
      width: 45px;
 }
+.social-media-h2 {
+     margin: 20px 0 15px 0;
+     color: darkslateblue;
+     text-align: center;
+}
+.social-repos-h2 {
+     color: darkslateblue;
+     text-align: center;
+     margin: 20px 0 15px 0;
+}
+.social-skills-h2 {
+     color: darkslateblue;
+     margin: 20px 0 15px 65px;
+     text-align: center;
+}
+.my-skills1 {
+     margin: 10px 0 0 120px;
+}
+.my-skills2 {
+     margin: 10px 0 0 130px;
+}
+.my-skills3 {
+     margin: 10px 0 0 135px;
+}
+.footer-container {
+     margin: 20px 0 0 0;
+     text-align: center;
+}
 .foot {
-     height: 25px;
-     width: 25px;
+          height: 25px;
+          width: 25px;
 }
 footer {
-     position: sticky;  
-     bottom: 0;
-     font-size: 18px;
-     color: darkslateblue;
+          position: sticky;  
+          bottom: 0;
+          font-size: 18px;
+          color: darkslateblue;
 }
-#gitHub {
-     font-size: 18px;
-     color: black;
-     list-style: none;
+     
+     #split, #gitHub {
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          columns: 2;
+          padding-left: 0;
+        }
+        ul li {
+          list-style-position: inside;
+          -webkit-column-break-inside: auto;
+          page-break-inside: auto;
+          break-inside: auto;
+          list-style: none;
+          font-weight: bold;
+          color: darkslategrey;
+          text-align: left;
+        }
+      
 }
-#split, #gitHub {
-     -webkit-columns: 2;
-     -moz-columns: 2;
-     columns: 2;
-     padding-left: 0;
-   }
-   ul li {
-     list-style-position: inside;
-     -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-     break-inside: avoid;
-     list-style: none;
-     font-size: 18px;
-   }
-
-   .social-media {
-        margin: 20px 0 10px 75px;
-   }
