@@ -40,7 +40,7 @@ request.onreadystatechange = function() {
       }
       pageMap[page].push(res.name);
       nameCount++
-      if (nameCount > 8) {
+      if (nameCount > 12) {
         nameCount = 1;
         page++
       }

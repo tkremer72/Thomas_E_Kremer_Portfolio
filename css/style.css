@@ -68,6 +68,10 @@ text-align: start;
      height: 40px;
      width: auto
 }
+.lb-logo {
+     height: 35px;
+     width: auto;
+}
 .gitHub, #gitHub {
      font-size: 17px;
      color: darkslategrey;
@@ -194,6 +198,10 @@ button {
 .cc-logo {
      height: 40px;
      width: auto
+}
+.lb-logo {
+     height: 35px;
+     width: auto;
 }
 .gitHub {
      margin: 0 0 0 160px;
