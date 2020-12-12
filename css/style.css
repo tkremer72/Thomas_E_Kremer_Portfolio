@@ -6,9 +6,15 @@ body {
 } 
 
 @media only screen
-and (min-device-width: 374px)
+and (min-device-width: 375px)
 and (max-device-width: 1199px)
 and (-webkit-min-device-pixel-ratio: 3) {
+     * {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     body {
+          background-color: lightgrey;
+     } 
 a {
           font-size: 17px;
           font-weight: bold;
@@ -18,7 +24,7 @@ a {
 }
 button {
      border: 3px outset darkslategrey;
-     padding: 7.5px 20px;
+     padding: 5px 20px;
      margin: 5px 5px 0 5px;
 }
 .header-image-container {
@@ -126,7 +132,12 @@ footer {
 and (min-device-width: 1200px)
 and (max-device-width: 2400px)
 and (-webkit-min-device-pixel-ratio: 1) {
-     
+     * {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     body {
+          background-color: lightgrey;
+     } 
 a {
      font-size: 16px;
      font-weight: bold;
@@ -135,7 +146,7 @@ a {
      margin: 0 0 0 155px;
 }
 button {
-     padding: 7.5px 20px;
+     padding: 5px 20px;
      margin: 5px 5px 0 5px;
 }
 .header-image-container {
