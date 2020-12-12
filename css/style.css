@@ -44,6 +44,11 @@ button {
 color: darkslateblue;
 text-align:center;
 }
+.header-text-h4 {
+     color: darkslategrey;
+     font-weight: medium;
+     text-align: center;
+}
 .about-me-h2, .about-my-projects-h2 {
 margin: 5px 0 15px 0;
 color: darkslateblue;
@@ -132,18 +137,19 @@ footer {
 and (min-device-width: 1200px)
 and (max-device-width: 2400px)
 and (-webkit-min-device-pixel-ratio: 1) {
-     * {
+
+ * {
           font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     body {
+}
+body {
           background-color: lightgrey;
-     } 
+} 
 a {
      font-size: 16px;
      font-weight: bold;
 }
 .buttons {
-     margin: 0 0 0 155px;
+     margin: 0 0 0 215px;
 }
 button {
      padding: 5px 20px;
@@ -166,6 +172,12 @@ button {
      color: darkslateblue;
      text-align: center;
 }
+.header-text-h4 {
+     margin: 20px 0 15px 0;
+     color: darkslategrey;
+     font-weight: medium;
+     text-align: center;
+}
 .about-me-h2, .about-my-projects-h2 {
      color: darkslateblue;
      margin: 20px 0 15px 15px;
@@ -177,14 +189,14 @@ button {
      font-weight: bold;
 }
 .about-my-projects {
-     margin: 0 0 0 200px
+     margin: 20px 0 0 200px
 }
 .cc-logo {
      height: 40px;
      width: auto
 }
 .gitHub {
-     margin: 0 0 0 105px;
+     margin: 0 0 0 160px;
 }
 .icon {
      margin: 0 0 0 165px;
@@ -230,13 +242,13 @@ footer {
           color: darkslateblue;
 }
      
-     #split {
+#split {
           -webkit-columns: 2;
           -moz-columns: 2;
           columns: 2;
           padding-left: 0;
-        }
-        ul li {
+}
+ul li {
           list-style-position: inside;
           -webkit-column-break-inside: auto;
           page-break-inside: auto;
@@ -245,6 +257,5 @@ footer {
           font-weight: bold;
           color: darkslategrey;
           text-align: left;
-        }
-      
+}
 }
