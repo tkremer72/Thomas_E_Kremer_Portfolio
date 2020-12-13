@@ -72,6 +72,10 @@ text-align: start;
      height: 35px;
      width: auto;
 }
+.sc-logo {
+     height: 30px;
+     width: auto;
+}
 .gitHub, #gitHub {
      font-size: 15px;
      color: darkslategrey;
@@ -206,6 +210,10 @@ text-align: start;
      height: 35px;
      width: auto;
 }
+.sc-logo {
+     height: 30px;
+     width: auto;
+}
 .gitHub, #gitHub {
      font-size: 15px;
      color: darkslategrey;
@@ -335,6 +343,10 @@ text-align: start;
 }
 .lb-logo {
      height: 35px;
+     width: auto;
+}
+.sc-logo {
+     height: 30px;
      width: auto;
 }
 .gitHub, #gitHub {
