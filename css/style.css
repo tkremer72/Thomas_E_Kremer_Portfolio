@@ -4,7 +4,272 @@
 body {
      background-color: lightgrey;
 } 
+/*Small devices of an undefined origin ?*/
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 1199px)
+and (-webkit-min-device-pixel-ratio: 1) {
+     * {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     body {
+          background-color: lightgrey;
+     } 
+a {
+          font-size: 17px;
+          font-weight: bold;
+}
+.buttons {
+     margin: 0 0 0 55px;
+}
+button {
+     border: 3px outset darkslategrey;
+     padding: 5px 20px;
+     margin: 5px 5px 0 5px;
+}
+.header-image-container {
+          margin-top: 10px;
+          text-align: center;
+}
+.header-image-me {
+          border: 5px outset slategrey;
+          border-radius: 7%;
+          width: 200px;
+          height: 195px;
+}
+.header-text-container {
+     margin: 10px 0 0 0;
+}
+.header-text-h1 {
+color: darkslateblue;
+text-align:center;
+}
+.header-text-h4 {
+     color: darkslategrey;
+     font-weight: medium;
+     text-align: center;
+}
+.about-me-h2, .about-my-projects-h2 {
+margin: 5px 0 15px 0;
+color: darkslateblue;
+text-align: center;
+}
+.about-me-info {
+margin: 10px 0 10px 0;
+font-size: 15px;
+color: darkslategrey;
+font-weight: bold;
+text-align: start;
+}
+.about-my-projects {
+     margin: 5px 0 0 0;
+}
+.cc-logo {
+     height: 40px;
+     width: auto
+}
+.lb-logo {
+     height: 35px;
+     width: auto;
+}
+.gitHub, #gitHub {
+     font-size: 15px;
+     color: darkslategrey;
+     font-weight: bold;
+}
+.gitHub {
+     text-align: left;
+}
+.social-media-h2 {
+     margin: 20px 0 15px 0;
+     color: darkslateblue;
+     text-align: center;
+}
+.social-repos-h2 {
+     color: darkslateblue;
+     text-align: center;
+     margin: 20px 0 15px 0;
+}
+.social-skills-h2 {
+     color: darkslateblue;
+     margin: 20px 0 15px 5px;
+     text-align: center;
+}
+.my-skills1 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+.my-skills2 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+.my-skills3 {
+     margin: 10px 0 15px 65px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+ul li {
+     list-style: none;
+}
+.footer-container {
+     margin: 20px 0 0 0;
+     text-align: center;
+}
+.foot {
+          height: 25px;
+          width: 25px;
+}
+footer {
+          position: sticky;  
+          bottom: 0;
+          font-size: 18px;
+          font-weight: bold;
+          color: darkslateblue;
+}
+.icon {
+     margin: 0 0 0 65px;
+     height: 45px;
+     width: 45px;
+}
+}
 
+/*Other Phones and small devices like the android?*/
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 1199px)
+and (-webkit-min-device-pixel-ratio: 2) {
+     * {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     body {
+          background-color: lightgrey;
+     } 
+a {
+          font-size: 17px;
+          font-weight: bold;
+}
+.buttons {
+     margin: 0 0 0 55px;
+}
+button {
+     border: 3px outset darkslategrey;
+     padding: 5px 20px;
+     margin: 5px 5px 0 5px;
+}
+.header-image-container {
+          margin-top: 10px;
+          text-align: center;
+}
+.header-image-me {
+          border: 5px outset slategrey;
+          border-radius: 7%;
+          width: 200px;
+          height: 195px;
+}
+.header-text-container {
+     margin: 10px 0 0 0;
+}
+.header-text-h1 {
+color: darkslateblue;
+text-align:center;
+}
+.header-text-h4 {
+     color: darkslategrey;
+     font-weight: medium;
+     text-align: center;
+}
+.about-me-h2, .about-my-projects-h2 {
+margin: 5px 0 15px 0;
+color: darkslateblue;
+text-align: center;
+}
+.about-me-info {
+margin: 10px 0 10px 0;
+font-size: 15px;
+color: darkslategrey;
+font-weight: bold;
+text-align: start;
+}
+.about-my-projects {
+     margin: 5px 0 0 0;
+}
+.cc-logo {
+     height: 40px;
+     width: auto
+}
+.lb-logo {
+     height: 35px;
+     width: auto;
+}
+.gitHub, #gitHub {
+     font-size: 15px;
+     color: darkslategrey;
+     font-weight: bold;
+}
+.social-media-h2 {
+     margin: 20px 0 15px 0;
+     color: darkslateblue;
+     text-align: center;
+}
+.social-repos-h2 {
+     color: darkslateblue;
+     text-align: center;
+     margin: 20px 0 15px 0;
+}
+.social-skills-h2 {
+     color: darkslateblue;
+     margin: 20px 0 15px 5px;
+     text-align: center;
+}
+.my-skills1 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+.my-skills2 {
+     margin: 10px 0 0 75px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+.my-skills3 {
+     margin: 10px 0 15px 65px;
+     font-weight: bold;
+     font-size: 17px;
+     color: darkslategrey;
+}
+ul li {
+     list-style: none;
+}
+.footer-container {
+     margin: 20px 0 0 0;
+     text-align: center;
+}
+.foot {
+          height: 25px;
+          width: 25px;
+}
+footer {
+          position: sticky;  
+          bottom: 0;
+          font-size: 18px;
+          font-weight: bold;
+          color: darkslateblue;
+}
+.icon {
+     margin: 0 0 0 65px;
+     height: 45px;
+     width: 45px;
+}
+}
+
+/*Some phones like the iphone*/
 @media only screen
 and (min-device-width: 200px)
 and (max-device-width: 1199px)
@@ -56,13 +321,13 @@ text-align: center;
 }
 .about-me-info {
 margin: 10px 0 10px 0;
-font-size: 17px;
+font-size: 15px;
 color: darkslategrey;
 font-weight: bold;
 text-align: start;
 }
 .about-my-projects {
-     margin: 5px 0 0 45px
+     margin: 5px 0 0 0;
 }
 .cc-logo {
      height: 40px;
@@ -73,7 +338,7 @@ text-align: start;
      width: auto;
 }
 .gitHub, #gitHub {
-     font-size: 17px;
+     font-size: 15px;
      color: darkslategrey;
      font-weight: bold;
 }
@@ -95,19 +360,19 @@ text-align: start;
 .my-skills1 {
      margin: 10px 0 0 75px;
      font-weight: bold;
-     font-size: 19px;
+     font-size: 17px;
      color: darkslategrey;
 }
 .my-skills2 {
      margin: 10px 0 0 75px;
      font-weight: bold;
-     font-size: 19px;
+     font-size: 17px;
      color: darkslategrey;
 }
 .my-skills3 {
      margin: 10px 0 15px 65px;
      font-weight: bold;
-     font-size: 19px;
+     font-size: 17px;
      color: darkslategrey;
 }
 ul li {
@@ -149,7 +414,7 @@ body {
           background-color: lightgrey;
 } 
 a {
-     font-size: 16px;
+     font-size: 15px;
      font-weight: bold;
 }
 .buttons {
@@ -189,7 +454,7 @@ button {
 }
 .about-me-info {
      margin: 15px 0 15px 90px;
-     font-size: 16px;
+     font-size: 15px;
      font-weight: bold;
 }
 .about-my-projects {
@@ -201,10 +466,6 @@ button {
 }
 .lb-logo {
      height: 35px;
-     width: auto;
-}
-.sc-logo {
-     height: 30px;
      width: auto;
 }
 .gitHub {
