@@ -203,6 +203,10 @@ button {
      height: 35px;
      width: auto;
 }
+.sc-logo {
+     height: 30px;
+     width: auto;
+}
 .gitHub {
      margin: 0 0 0 160px;
 }
