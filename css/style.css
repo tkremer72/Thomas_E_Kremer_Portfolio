@@ -1,20 +1,20 @@
 * {
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body {
+/* body {
      background-color: lightgrey;
-} 
+}  */
 /*Small devices of an undefined origin ?*/
 @media only screen
 and (min-device-width: 200px)
 and (max-device-width: 1199px)
 and (-webkit-min-device-pixel-ratio: 1) {
-     * {
+* {
           font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     body {
+}
+/* body {
           background-color: lightgrey;
-     } 
+}  */
 a {
           font-size: 17px;
           font-weight: bold;
@@ -96,23 +96,20 @@ text-align: start;
 }
 .social-skills-h2 {
      color: darkslateblue;
-     margin: 20px 0 15px 5px;
+     margin: 20px 0 15px 0;
      text-align: center;
 }
 .my-skills1 {
-     margin: 10px 0 0 75px;
      font-weight: bold;
      font-size: 17px;
      color: darkslategrey;
 }
 .my-skills2 {
-     margin: 10px 0 0 75px;
      font-weight: bold;
      font-size: 17px;
      color: darkslategrey;
 }
 .my-skills3 {
-     margin: 10px 0 15px 65px;
      font-weight: bold;
      font-size: 17px;
      color: darkslategrey;
@@ -131,7 +128,7 @@ ul li {
 footer {
           position: sticky;  
           bottom: 0;
-          font-size: 18px;
+          font-size: 15px;
           font-weight: bold;
           color: darkslateblue;
 }
@@ -142,28 +139,24 @@ footer {
 }
 }
 
-/*Other Phones and small devices like the android?*/
+/*Other Phones and small devices like the Iphone 4?*/
 @media only screen
 and (min-device-width: 200px)
 and (max-device-width: 1199px)
 and (-webkit-min-device-pixel-ratio: 2) {
-     * {
+* {
           font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     body {
-          background-color: lightgrey;
-     } 
-a {
-          font-size: 17px;
-          font-weight: bold;
 }
+body {
+          background-color: lightgrey;
+} 
 .buttons {
-     margin: 0 0 0 55px;
+justify-content: center;
 }
 button {
      border: 3px outset darkslategrey;
      padding: 5px 20px;
-     margin: 5px 5px 0 5px;
+     margin: 5px 5px 0 20px;
 }
 .header-image-container {
           margin-top: 10px;
@@ -176,9 +169,10 @@ button {
           height: 195px;
 }
 .header-text-container {
-     margin: 10px 0 0 0;
+     margin: 10px 0 15px 0;
 }
 .header-text-h1 {
+margin-bottom: 20px;
 color: darkslateblue;
 text-align:center;
 }
@@ -188,19 +182,26 @@ text-align:center;
      text-align: center;
 }
 .about-me-h2, .about-my-projects-h2 {
-margin: 5px 0 15px 0;
+margin: 5px 0 20px 0;
 color: darkslateblue;
 text-align: center;
 }
 .about-me-info {
 margin: 10px 0 10px 0;
-font-size: 15px;
+font-size: 16px;
 color: darkslategrey;
-font-weight: bold;
 text-align: start;
 }
 .about-my-projects {
-     margin: 5px 0 0 0;
+     margin: 15px 0 0 0;
+}
+/* Accordion Styles */
+.accordion-body {
+     margin-left: 100px;
+}
+.accordion-header {
+     margin: 25px 0 25px 15px;
+     text-align: start;
 }
 .cc-logo {
      height: 40px;
@@ -217,7 +218,13 @@ text-align: start;
 .gitHub, #gitHub {
      font-size: 15px;
      color: darkslategrey;
-     font-weight: bold;
+}
+.my-social-github {
+     justify-content: center;
+}
+.my-skills-container {
+     justify-content: center;
+
 }
 .social-media-h2 {
      margin: 20px 0 15px 0;
@@ -227,29 +234,22 @@ text-align: start;
 .social-repos-h2 {
      color: darkslateblue;
      text-align: center;
-     margin: 20px 0 15px 0;
 }
 .social-skills-h2 {
      color: darkslateblue;
-     margin: 20px 0 15px 5px;
+     margin: 20px 0 15px 0;
      text-align: center;
 }
 .my-skills1 {
-     margin: 10px 0 0 75px;
-     font-weight: bold;
-     font-size: 17px;
+     font-size: 15px;
      color: darkslategrey;
 }
 .my-skills2 {
-     margin: 10px 0 0 75px;
-     font-weight: bold;
-     font-size: 17px;
+     font-size: 15px;
      color: darkslategrey;
 }
 .my-skills3 {
-     margin: 10px 0 15px 65px;
-     font-weight: bold;
-     font-size: 17px;
+     font-size: 15px;
      color: darkslategrey;
 }
 ul li {
@@ -266,28 +266,28 @@ ul li {
 footer {
           position: sticky;  
           bottom: 0;
-          font-size: 18px;
+          font-size: 15px;
           font-weight: bold;
           color: darkslateblue;
 }
 .icon {
-     margin: 0 0 0 65px;
+     margin: 0 0 0 45px;
      height: 45px;
      width: 45px;
 }
 }
 
 /*Some phones like the iphone*/
-@media only screen
+/* @media only screen
 and (min-device-width: 200px)
 and (max-device-width: 1199px)
 and (-webkit-min-device-pixel-ratio: 3) {
-     * {
+* {
           font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     body {
+}
+body {
           background-color: lightgrey;
-     } 
+} 
 a {
           font-size: 17px;
           font-weight: bold;
@@ -410,7 +410,7 @@ footer {
      height: 45px;
      width: 45px;
 }
-}
+} */
 
 
 /* ----------- Non-Retina Screens Laptops And Larger ----------- */
@@ -425,6 +425,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
 body {
           background-color: lightgrey;
 } 
+/* Accordion Styles */
+.accordion-body {
+     text-align: start;
+}
+.accordion-header {
+     margin: 25px 0 25px 55px;
+     text-align: center;
+}
+
 a {
      font-size: 15px;
      font-weight: bold;
@@ -432,9 +441,11 @@ a {
 .buttons {
      margin: 0 0 0 215px;
 }
-button {
+.btn {
+     color: black;
+     background-color: lightslategrey;
      padding: 5px 20px;
-     margin: 5px 5px 0 5px;
+     margin: 5px 5px 0 12.5px;
 }
 .header-image-container {
           margin: 5px 0 0 0;
